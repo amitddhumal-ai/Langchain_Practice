@@ -1,0 +1,37 @@
+https://www3.nd.edu/~busiforc/handouts/Data%20and%20Stories/regression/Air%20Pollution/airpullution.html
+
+Story Name: Air Pollution and Mortality
+
+Abstract: Researchers at General Motors collected data on 60 U.S. Standard Metropolitan Statistical Areas (SMSA's) in a study of whether air pollution contributes to mortality. The dependent variable for analysis is age adjusted mortality (called "Mortality"). The data include variables measuring demographic characteristics of the cities, variables measuring climate characteristics, and variables recording the pollution potential of three different air pollutants.
+
+The pollution variables are highly skewed. A logarithm transformation makes them much more nearly symmetric. Various multiple regression models may be used to determine whether air pollution is significantly related to mortality. Image: A partial regression plot of Education from the regression of Mortality on Education, pop density, %NonWhite, Rain and Log(NOx).
+
+Reference: U.S. Department of Labor
+Statistics Authorization: free use
+
+Description: Properties of 60 Standard Metropolitan Statistical Areas (a standard Census Bureau designation of the region around a city) in the United States, collected from a variety of sources.
+
+The data include information on the social and economic conditions in these areas, on their climate, and some indices of air pollution potentials.
+
+Number of cases: 60
+
+Variable Names:
+    1.city: City name
+    2.JanTemp: Mean January temperature (degrees Farenheit)
+    3.JulyTemp: Mean July temperature (degrees Farenheit)
+    4.RelHum: Relative Humidity
+    5.Rain: Annual rainfall (inches)
+    6.Mortality: Age adjusted mortality
+    7.Education: Median education
+    8.PopDensity: Population density
+    9.%NonWhite: Percentage of non whites
+    10.%WC: Percentage of white collar workers
+    11.pop: Population
+    12.pop/house: Population per household
+    13.income: Median income
+    14.HCPot: HC pollution potential
+    15.NOxPot: Nitrous Oxide pollution potential
+    16.SO2Pot: Sulfur Dioxide pollution potential
+    17.NOx: Nitrous Oxide
+
+The Data: air-pollution.txt
